@@ -81,7 +81,7 @@ Together, these components enable PeachBot to operate as a **distributed, edge-f
 - Intelligence is **emergent and system-wide**  
 - The cloud provides **aggregation, validation, and governance** — not centralized control  
 
-This architecture reflects a shift from conventional centralized AI systems toward **biologically-aligned, distributed intelligence infrastructures**.
+**This architecture reflects a shift from conventional centralized AI systems toward **biologically-aligned, distributed intelligence infrastructures**.
 ---
 
 ## System Architecture
