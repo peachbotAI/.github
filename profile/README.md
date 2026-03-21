@@ -78,15 +78,21 @@ PeachBot is structured as a layered intelligence system:
 ## Platform Concepts
 
 <p align="center">
-  <img src="https://peachbot.in/assets/img/MediAI/Peachbot_Medi_Ai_03.png" width="280"/>
-  <img src="https://peachbot.in/assets/img/peachBotEco.png" width="280"/>
-  <img src="https://peachbot.in/assets/img/AgriAI/Peachbot_Agri_Ai_01.png" width="280"/>
+  <span style="display:inline-block; width:260px; height:180px; overflow:hidden; margin:5px;">
+    <img src="https://peachbot.in/assets/img/MediAI/Peachbot_Medi_Ai_03.png" style="width:100%; height:100%; object-fit:cover;" />
+  </span>
+
+  <span style="display:inline-block; width:260px; height:180px; overflow:hidden; margin:5px;">
+    <img src="https://peachbot.in/assets/img/peachBotEco.png" style="width:100%; height:100%; object-fit:cover;" />
+  </span>
+
+  <span style="display:inline-block; width:260px; height:180px; overflow:hidden; margin:5px;">
+    <img src="https://peachbot.in/assets/img/AgriAI/Peachbot_Agri_Ai_01.png" style="width:100%; height:100%; object-fit:cover;" />
+  </span>
 </p>
 
 <p align="center">
-  <sub>
-    MediAI · Environmental Intelligence · AgriAI Systems
-  </sub>
+  <sub>MediAI · Environmental Intelligence · AgriAI Systems</sub>
 </p>
 
 ## Application Domains
