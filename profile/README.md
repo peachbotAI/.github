@@ -37,18 +37,51 @@ The platform has progressed through advanced prototyping and is now transitionin
 
 ## Core Divisions
 
-### Edge Intelligence Systems
-Real-time AI systems operating on constrained edge environments with minimal latency.
+The PeachBot platform is structured as a **multi-layer, biologically-aware intelligence stack**, combining domain-specific applications with proprietary system frameworks spanning hardware, computation, and distributed learning.
 
-### Biological Intelligence Modeling
-Adaptive architectures inspired by biological systems for resilience and efficiency.
+---
 
-### Health Intelligence (Telemedicine)
-Edge-enabled diagnostics and continuous health monitoring systems.
+### Applied Intelligence Domains
 
-### Environmental Intelligence
-Distributed sensing networks for environmental awareness and adaptive response.
+**[Health Intelligence (Telemedicine)](https://peachbot.in/telemedicine-software)**  
+Edge-native diagnostic and monitoring systems enabling real-time medical intelligence in constrained and latency-sensitive environments.
 
+**[Environmental & Ecological Intelligence](https://peachbot.in/ai-in-ecology)**  
+Distributed sensing and adaptive response systems for environmental monitoring, ecological analysis, and real-time intelligence.
+
+**[Agricultural Intelligence Systems](https://peachbot.in/ai-in-agriculture)**  
+Precision agriculture platforms leveraging edge AI for monitoring, prediction, and adaptive farm management.
+
+**[Biological Intelligence Modeling](https://peachbot.in/ai-in-biology)**  
+Development of biologically-inspired learning architectures enabling adaptive, resilient, and distributed intelligence systems.
+
+---
+
+### Core System Frameworks
+
+**FILA (Federated Intelligence & Learning Architecture)**  
+A distributed learning architecture where training occurs locally at the edge, with system-wide intelligence emerging through federated aggregation, validation, and controlled synchronization. Designed to minimize data centralization while preserving global coherence.
+
+**SBC (Synthetic Biological Computation)**  
+A proprietary computation paradigm inspired by biological systems, enabling state-aware, adaptive, and continuously evolving intelligence across dynamic and uncertain environments. SBC underpins local learning behavior and system adaptability.
+
+**Edge SoC (System-on-Chip Intelligence Integration)**  
+Hardware-integrated intelligence layer combining sensing, embedded AI acceleration, and communication within optimized SoC configurations. Enables efficient on-device inference and **localized training**, supporting real-time operation under strict resource constraints.
+
+**Platform Orchestration & Governance Layer**  
+A coordination layer responsible for decision orchestration, system-wide policy enforcement, safety constraints, and lifecycle management of distributed intelligence across edge nodes.
+
+---
+
+### System Perspective
+
+Together, these components enable PeachBot to operate as a **distributed, edge-first intelligence system**, where:
+
+- Learning is **localized and continuous**  
+- Intelligence is **emergent and system-wide**  
+- The cloud provides **aggregation, validation, and governance** — not centralized control  
+
+This architecture reflects a shift from conventional centralized AI systems toward **biologically-aligned, distributed intelligence infrastructures**.
 ---
 
 ## System Architecture
@@ -66,19 +99,20 @@ flowchart TB
     end
 
     %% ========================
-    %% Edge Layer (Core Intelligence)
+    %% Edge Layer (SoC + SBC)
     %% ========================
-    subgraph Edge["Edge Intelligence Layer"]
+    subgraph Edge["Edge Intelligence Layer (SoC-Integrated)"]
+        E0["Edge SoC<br/>Sensing · Compute · Communication"]
         E1["Sensors"]
         E2["On-device Inference"]
-        E3["Local Training (Online Learning)"]
+        E3["Local Training (SBC)"]
         E4["Edge Memory / State"]
     end
 
     %% ========================
-    %% Coordination Layer
+    %% Platform Layer (Governance)
     %% ========================
-    subgraph Platform["Platform Coordination Layer"]
+    subgraph Platform["Platform Orchestration & Governance"]
         P1["Decision Engine"]
         P2["Orchestration"]
         P3["Policy & Safety Layer"]
@@ -86,9 +120,9 @@ flowchart TB
     end
 
     %% ========================
-    %% Cloud Layer (Non-centralized AI)
+    %% Cloud Layer (FILA)
     %% ========================
-    subgraph Cloud["Cloud Aggregation Layer"]
+    subgraph Cloud["Cloud Aggregation Layer (FILA)"]
         C1["Federated Aggregation"]
         C2["Model Validation"]
         C3["Model Registry"]
@@ -102,7 +136,7 @@ flowchart TB
     I2 --> E1
     I3 --> E1
 
-    E1 --> E2 --> E3 --> E4
+    E1 --> E0 --> E2 --> E3 --> E4
 
     %% Edge to Platform
     E4 --> P1
@@ -113,14 +147,15 @@ flowchart TB
     C1 --> C2 --> C3 --> C4
 
     %% ========================
-    %% Local Learning Loop (Biological Analogy)
+    %% Local Adaptive Learning (SBC Loop)
     %% ========================
     E3 --> E2
 
     %% ========================
-    %% Federated Feedback (Optional Sync)
+    %% Federated Learning Loop (FILA)
     %% ========================
-    C1 -->|"Aggregated Insights"| P1
+    E3 -->|"Local Updates"| C1
+    C1 -->|"Aggregated Intelligence"| P1
 
     %% ========================
     %% Controlled Model Downlink
@@ -128,7 +163,7 @@ flowchart TB
     C3 -->|"Validated Model Updates"| E2
 
     %% ========================
-    %% Safety / Governance Feedback
+    %% Governance & Safety Feedback
     %% ========================
     P3 --> E2
     P3 --> C2
