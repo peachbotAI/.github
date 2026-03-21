@@ -1,127 +1,127 @@
 # PeachBot Research & Innovations
 
-**Biologically-Aware Edge Intelligence Systems for Real-World Environments**
+**Biologically-Aware Edge Intelligence Systems for Real-World Deployment**
+
+---
+
 ## Overview
 
-PeachBot Research & Innovations is a deep-technology initiative focused on building biologically-aware edge AI systems capable of real-time, adaptive decision-making in constrained and dynamic environments.
+PeachBot Research & Innovations is a deep-technology platform focused on the development and deployment of biologically-aware edge AI systems.
 
-Our work integrates principles from biological intelligence, distributed systems, and machine learning to develop robust intelligence layers that operate directly at the edge — where latency, reliability, and autonomy are critical.
+The platform has progressed through research and prototyping phases and is now positioned for real-world deployment across healthcare, environmental intelligence, and distributed sensing systems.
 
-## Vision
+PeachBot is designed as an infrastructure layer for adaptive, real-time intelligence operating in constrained and mission-critical environments.
 
-To develop next-generation intelligent systems that are:
+---
 
-- Adaptive like biological organisms  
-- Distributed like natural ecosystems  
-- Efficient for edge-constrained environments  
-- Capable of real-world deployment at scale  
+## Platform Status
 
-## Core Domains
+PeachBot represents a **validated MVP transitioning toward deployment-ready systems**, with:
 
-### Edge Intelligence Systems
-Design and deployment of low-latency AI systems operating on edge devices with limited computational resources.
+- Functional edge AI prototypes  
+- Integrated system architecture across edge, platform, and cloud layers  
+- Early-stage deployment configurations  
+- Ongoing refinement for scalability and reliability  
 
-### Biological Intelligence Modeling
-Incorporating biologically-inspired mechanisms into AI systems for adaptability, resilience, and efficiency.
+---
 
-### Telemedicine & Health Intelligence
-Development of edge-enabled health monitoring and diagnostic systems for real-time medical insights.
+## Core Capabilities
 
-### Environmental Monitoring Systems
-Distributed sensing and adaptive response systems for environmental intelligence and sustainability applications.
+- Edge-native intelligence systems  
+- Real-time decision-making under constraints  
+- Biologically-inspired adaptive models  
+- Distributed sensing and intelligence networks  
+- Hybrid edge-cloud orchestration  
+
+---
 
 ## System Architecture
-    ┌──────────────────────────────────────┐
-    │             Cloud Layer              │
-    │  • Model Training                   │
-    │  • Data Aggregation                 │
-    │  • System Analytics                 │
-    └─────────────────┬────────────────────┘
-                      │
-    ┌─────────────────▼────────────────────┐
-    │         Platform Intelligence        │
-    │  • API Layer                        │
-    │  • Decision Engine                  │
-    │  • Orchestration Systems            │
-    └─────────────────┬────────────────────┘
-                      │
-    ┌─────────────────▼────────────────────┐
-    │            Edge Systems              │
-    │  • Sensors                          │
-    │  • On-device AI                     │
-    │  • Communication Modules            │
-    └─────────────────┬────────────────────┘
-                      │
-    ┌─────────────────▼────────────────────┐
-    │        Real-World Interfaces         │
-    │  • Patients                         │
-    │  • Environmental Inputs             │
-    │  • Physical Systems                 │
-    └──────────────────────────────────────┘
 
-## Platform Components
+PeachBot operates as a multi-layer intelligence system:
 
-- **Edge Modules**  
-  Hardware-integrated systems with embedded intelligence.
+**Cloud Layer**  
+Model training, data aggregation, and system analytics  
 
-- **AI Models**  
-  Biologically-aware models optimized for edge execution.
+**Platform Layer**  
+Decision engine, orchestration, APIs, and system control  
 
-- **Data Pipelines**  
-  Real-time ingestion, preprocessing, and validation systems.
+**Edge Layer**  
+Sensors, embedded AI, and communication modules  
 
-- **Deployment Infrastructure**  
-  Hybrid edge-cloud deployment strategies.
+**Interface Layer**  
+Real-world interaction across healthcare, environmental, and physical systems  
 
-## Applications (MVP Systems)
+---
 
-- Edge-based telemedicine diagnostics  
-- Environmental sensing and monitoring networks  
-- Adaptive health intelligence systems  
-- Distributed AI for real-world decision systems  
+## Application Domains
 
-## Research & Development
+**Telemedicine & Health Intelligence**  
+Edge-enabled monitoring and diagnostic systems  
 
-Our work spans multiple advanced areas, including:
+**Environmental Intelligence**  
+Distributed sensing and adaptive environmental response  
+
+**Adaptive Intelligence Systems**  
+Real-time decision systems operating in dynamic conditions  
+
+---
+
+## Research & Engineering Foundation
+
+The platform is built upon:
 
 - Graph Neural Networks (GNNs)  
 - Edge AI architectures  
-- Distributed intelligence systems  
-- Biological computation models  
+- Distributed systems engineering  
+- Biological intelligence modeling  
 
-Research outputs and technical documents are maintained within repository-level `/docs` directories.
+Research outputs are actively being translated into deployable system components.
 
-## Engineering Philosophy
+---
 
-- Systems-first approach over isolated models  
-- Real-world deployment over simulation-only research  
-- Modularity and scalability in architecture  
-- Efficiency and reliability at the edge  
+## Deployment Direction
 
+PeachBot is currently focused on:
 
-## Collaboration
+- Transitioning from MVP to production-grade systems  
+- Strengthening deployment reliability and scalability  
+- Establishing real-world pilot environments  
+- Aligning research outputs with commercial applications  
 
-We welcome collaboration with:
+---
 
-- Researchers in AI, systems, and biology  
-- Engineers working on edge and distributed systems  
-- Institutions exploring real-world AI deployment  
+## Engineering Approach
 
+- Systems-first architecture  
+- Deployment-oriented design  
+- Modular and extensible infrastructure  
+- Efficiency and robustness at the edge  
+
+---
 
 ## Intellectual Property
 
-Certain components of PeachBot Research & Innovations may be subject to:
+Core components of the PeachBot platform are subject to:
 
-- Patent filings  
-- Proprietary system architectures  
-- Confidential deployment strategies  
+- Ongoing research and innovation  
+- Proprietary system design  
+- Potential patent filings  
+
+---
+
+## Collaboration
+
+PeachBot engages with:
+
+- Research institutions  
+- Deep-tech collaborators  
+- Deployment partners in healthcare and environmental sectors  
+
+---
 
 ## Contact
 
 PeachBot Research & Innovations  
 Singapore · India  
 
-Email: info@peachbot.in
-
-    
-
+info@peachbot.in
