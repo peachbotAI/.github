@@ -53,39 +53,98 @@ Distributed sensing networks for environmental awareness and adaptive response.
 
 ## System Architecture
 
-## System Architecture
-
 ```mermaid
 flowchart TB
 
-    %% Layers
-    A[Real-World Interface<br/>Patients · Environment · Devices]
+    %% ========================
+    %% Interface Layer
+    %% ========================
+    subgraph Interface["Real-World Interface"]
+        I1["Patients"]
+        I2["Environmental Inputs"]
+        I3["Physical Devices"]
+    end
 
-    B[Edge Layer<br/>Sensors · On-device AI · Communication]
+    %% ========================
+    %% Edge Layer (Core Intelligence)
+    %% ========================
+    subgraph Edge["Edge Intelligence Layer"]
+        E1["Sensors"]
+        E2["On-device Inference"]
+        E3["Local Training (Online Learning)"]
+        E4["Edge Memory / State"]
+    end
 
-    C[Platform Intelligence<br/>APIs · Decision Engine · Orchestration]
+    %% ========================
+    %% Coordination Layer
+    %% ========================
+    subgraph Platform["Platform Coordination Layer"]
+        P1["Decision Engine"]
+        P2["Orchestration"]
+        P3["Policy & Safety Layer"]
+        P4["API Gateway"]
+    end
 
-    D[Cloud Layer<br/>Training · Data Aggregation · Analytics]
+    %% ========================
+    %% Cloud Layer (Non-centralized AI)
+    %% ========================
+    subgraph Cloud["Cloud Aggregation Layer"]
+        C1["Federated Aggregation"]
+        C2["Model Validation"]
+        C3["Model Registry"]
+        C4["Monitoring & Analytics"]
+    end
 
-    %% Flow
-    A --> B
-    B --> C
-    C --> D
+    %% ========================
+    %% Primary Data Flow
+    %% ========================
+    I1 --> E1
+    I2 --> E1
+    I3 --> E1
 
-    %% Feedback Loop
-    D --> C
-    C --> B
+    E1 --> E2 --> E3 --> E4
 
-    %% Styling
-    classDef layer fill:#0f172a,color:#ffffff,stroke:#1e293b,stroke-width:1px;
-    class A,B,C,D layer;
+    %% Edge to Platform
+    E4 --> P1
+    P1 --> P2 --> P4
 
-PeachBot is structured as a layered intelligence system:
+    %% Platform to Cloud
+    P2 --> C1
+    C1 --> C2 --> C3 --> C4
 
-- **Cloud Layer** — training, aggregation, analytics  
-- **Platform Layer** — orchestration, APIs, decision engine  
-- **Edge Layer** — sensors, embedded AI, communication  
-- **Interface Layer** — real-world interaction systems  
+    %% ========================
+    %% Local Learning Loop (Biological Analogy)
+    %% ========================
+    E3 --> E2
+
+    %% ========================
+    %% Federated Feedback (Optional Sync)
+    %% ========================
+    C1 -->|"Aggregated Insights"| P1
+
+    %% ========================
+    %% Controlled Model Downlink
+    %% ========================
+    C3 -->|"Validated Model Updates"| E2
+
+    %% ========================
+    %% Safety / Governance Feedback
+    %% ========================
+    P3 --> E2
+    P3 --> C2
+``` 
+
+PeachBot is architected as a distributed, edge-first intelligence system, where learning and decision-making occur at the point of data generation.
+
+The platform integrates interface, edge, coordination, and aggregation layers to enable adaptive, real-time intelligence in constrained environments, while maintaining system-wide consistency through controlled aggregation and model governance.
+
+- **Interface Layer** — real-world interaction across patients, environmental inputs, and physical systems  
+- **Edge Intelligence Layer** — sensing, on-device inference, and **local adaptive learning** under real-world constraints  
+- **Platform Coordination Layer** — decision orchestration, policy control, and system-level intelligence management  
+- **Cloud Aggregation Layer** — federated aggregation, model validation, and controlled model distribution  
+
+The architecture prioritizes **edge-native intelligence**, where learning and adaptation occur locally, while the cloud provides **coordination, validation, and system-wide consistency** rather than centralized control.
+
 
 ---
 
