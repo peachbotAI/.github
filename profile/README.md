@@ -23,6 +23,18 @@ PeachBot Research & Innovations is a deep-technology platform focused on the dev
 The platform has progressed through advanced prototyping and is now transitioning toward deployment-ready systems across healthcare, environmental intelligence, and distributed sensing environments.
 
 ---
+## Compliance & Standards
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HIPAA-Roadmap-lightgrey" />
+  <img src="https://img.shields.io/badge/GDPR-Ready-blue" />
+  <img src="https://img.shields.io/badge/PDPA%20(SG)-Aligned-green" />
+  <img src="https://img.shields.io/badge/DISHA%20(India)-Reference-grey" />
+  <img src="https://img.shields.io/badge/ISO%2013485-Planned-grey" />
+  <img src="https://img.shields.io/badge/FHIR%20%2F%20HL7-Interoperable-238636" />
+</p>
+
+PeachBot aligns with international data protection, healthcare interoperability, and emerging digital health governance frameworks across Singapore and India.
 
 ## Platform Status
 
@@ -34,6 +46,44 @@ The platform has progressed through advanced prototyping and is now transitionin
 - Ongoing optimization for real-world scalability  
 
 ---
+## Product Verticals
+
+### PeachBot MedAI+ (Clinical Intelligence)
+
+- Edge-native diagnostics and biological signal intelligence  
+- GNN-driven multi-modal medical inference  
+- **Status:** Patent Published *(App No: 202541127477)*  
+
+[Health Intelligence](https://peachbot.in/telemedicine-software)
+
+---
+
+### PeachBot Eco (Environmental Intelligence)
+
+- Real-time monitoring of water systems and ecosystems  
+- Distributed sensing with adaptive intelligence  
+- **Status:** Live Deployment *(Ramsar Site: Sasthamkotta)*  
+
+[Environmental & Ecological Intelligence](https://peachbot.in/ai-in-ecology)
+
+---
+
+### PeachBot AgriAI (Agricultural Intelligence)
+
+- Precision agriculture using edge AI systems  
+- Predictive and adaptive farm intelligence  
+
+[Agricultural Intelligence Systems](https://peachbot.in/ai-in-agriculture)
+
+---
+
+### Biological Intelligence Research
+
+
+- Adaptive learning architectures inspired by biological systems  
+- Foundation layer for SBC and Edge-GNN models  
+
+[Biological Intelligence Modeling](https://peachbot.in/ai-in-biology)
 
 ## Core Divisions
 
@@ -42,18 +92,10 @@ The PeachBot platform is structured as a **multi-layer, biologically-aware intel
 ---
 
 ### Applied Intelligence Domains
-
-**[Health Intelligence (Telemedicine)](https://peachbot.in/telemedicine-software)**  
-Edge-native diagnostic and monitoring systems enabling real-time medical intelligence in constrained and latency-sensitive environments.
-
-**[Environmental & Ecological Intelligence](https://peachbot.in/ai-in-ecology)**  
-Distributed sensing and adaptive response systems for environmental monitoring, ecological analysis, and real-time intelligence.
-
-**[Agricultural Intelligence Systems](https://peachbot.in/ai-in-agriculture)**  
-Precision agriculture platforms leveraging edge AI for monitoring, prediction, and adaptive farm management.
-
-**[Biological Intelligence Modeling](https://peachbot.in/ai-in-biology)**  
-Development of biologically-inspired learning architectures enabling adaptive, resilient, and distributed intelligence systems.
+- Edge-native diagnostic and monitoring systems enabling real-time medical intelligence in constrained and latency-sensitive environments.
+- Distributed sensing and adaptive response systems for environmental monitoring, ecological analysis, and real-time intelligence.
+- Precision agriculture platforms leveraging edge AI for monitoring, prediction, and adaptive farm management.
+- Development of biologically-inspired learning architectures enabling adaptive, resilient, and distributed intelligence systems.
 
 ---
 
@@ -192,25 +234,6 @@ The architecture prioritizes **edge-native intelligence**, where learning and ad
 
 ---
 
-## Platform Concepts
-
-<p align="center">
-  <img src="https://peachbot.in/assets/img/MediAI/Peachbot_Medi_Ai_03.png" width="260" height="180"/>
-  <img src="https://peachbot.in/assets/img/peachBotEco.png" width="260" height="180"/>
-  <img src="https://peachbot.in/assets/img/AgriAI/Peachbot_Agri_Ai_01.png" width="260" height="180"/>
-</p>
-
-<p align="center">
-  <sub>MediAI · Environmental Intelligence · AgriAI Systems</sub>
-</p>
-
-## Application Domains
-
-- Telemedicine edge diagnostics  
-- Environmental monitoring systems  
-- Adaptive intelligence platforms  
-
----
 
 ## Repository Structure
 
@@ -223,34 +246,87 @@ The architecture prioritizes **edge-native intelligence**, where learning and ad
 
 ---
 
+## Intellectual Property & Validation
+
+**Patent Filing**  
+Edge-Based Clinical Intelligence via Graph Neural Networks  
+Application No: 202541127477  
+
+**Deployment Validation**  
+Field-tested environmental intelligence system deployment at  
+Sasthamkotta Ramsar Site, India  
+
+**Research Foundations**  
+The PeachBot platform is supported by ongoing research in edge AI, biological intelligence, and distributed learning systems.
+
+---
+
+## Publications & Preprints
+
+**Dedicated Edge-AI Single-Board Computer Systems for Ecological Monitoring in Protected Wetlands: Evidence from a Ramsar Site in India**  
+*January 2026 · Environmental AI & Edge Computing · Preprint*  
+Author: Swapin Vidya   
+- DOI: *[rs.3.rs-8553049/v1](https://doi.org/10.21203/rs.3.rs-8553049/v1)*  
+- License: CC BY 4.0  
+
+---
+
+**Edge-Based Execution of Graph Neural Networks for Protein Interaction Network Analysis in Clinical Oncology**  
+*January 2026 · Edge AI & Computational Biology · Preprint*  
+Author: Swapin Vidya  
+- DOI: *[(rs.3.rs-8645211/v1)](https://doi.org/10.21203/rs.3.rs-8645211/v1)*  
+- License: CC BY 4.0  
+
+---
+
+**Edge-GNN: A Constraint-Aware Graph Neural Network Framework for Resource-Efficient Biological Interaction Modeling**  
+*March 2026 · Edge AI & Computational Biology · Preprint*  
+Author: Swapin Vidya  
+- DOI: *[(rs.3.rs-9096630/v1)](https://doi.org/10.21203/rs.3.rs-9096630/v1)*  
+- License: CC BY 4.0  
+
+---
+
+## Compliance & Standards (Roadmap)
+
+PeachBot is aligning with international standards for healthcare, data protection, and system reliability:
+
+- HIPAA (Healthcare Data Compliance) — roadmap  
+- GDPR (Data Protection & Privacy) — readiness alignment  
+- ISO 13485 (Medical Device Systems) — planned  
+- HL7 / FHIR interoperability — under integration  
+
+---
+
 ## Engineering Approach
 
-- Systems-first architecture  
-- Deployment-oriented engineering  
-- Modular and scalable design  
-- Efficiency at the edge  
+- Edge-first, distributed intelligence architecture  
+- Local learning with federated coordination (FILA)  
+- Hardware–software co-design with SoC-based systems  
+- Deployment-oriented system engineering  
 
 ---
 
-## Intellectual Property
+## Strategic Direction
 
-Core components are subject to:
+PeachBot is transitioning from **validated research and MVP systems** toward **deployment-scale infrastructure**, with focus on:
 
-- Proprietary system design  
-- Active research and innovation  
-- Potential patent filings  
-
----
-
-## Collaboration
-
-We collaborate with:
-
-- Research institutions  
-- Deep-tech partners  
-- Deployment-focused organizations  
+- Clinical intelligence systems  
+- Environmental monitoring networks  
+- Distributed edge AI ecosystems  
 
 ---
+
+## Collaboration & Partnerships
+
+We are open to structured collaborations in research and deployment contexts, including:
+
+- Clinical validation studies  
+- Environmental monitoring initiatives  
+- Academic and institutional partnerships
+
+For collaboration inquiries:  
+info@peachbot.in
 
 ## Contact
 
