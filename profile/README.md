@@ -75,11 +75,21 @@ PeachBot is structured as a layered intelligence system:
 
 ---
 
-## Application Domains
+## Platform Concepts
 
 <p align="center">
-  <img src="https://via.placeholder.com/900x250?text=Telemedicine+%7C+Environment+%7C+Adaptive+Systems" />
+  <img src="https://peachbot.in/assets/img/MediAI/Peachbot_Medi_Ai_03.png" width="280"/>
+  <img src="https://peachbot.in/assets/img/peachBotEco.png" width="280"/>
+  <img src="https://peachbot.in/assets/img/AgriAI/Peachbot_Agri_Ai_01.png" width="280"/>
 </p>
+
+<p align="center">
+  <sub>
+    MediAI · Environmental Intelligence · AgriAI Systems
+  </sub>
+</p>
+
+## Application Domains
 
 - Telemedicine edge diagnostics  
 - Environmental monitoring systems  
