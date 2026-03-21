@@ -53,9 +53,32 @@ Distributed sensing networks for environmental awareness and adaptive response.
 
 ## System Architecture
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x300?text=PeachBot+System+Architecture" alt="Architecture Diagram"/>
-</p>
+## System Architecture
+
+```mermaid
+flowchart TB
+
+    %% Layers
+    A[Real-World Interface<br/>Patients · Environment · Devices]
+
+    B[Edge Layer<br/>Sensors · On-device AI · Communication]
+
+    C[Platform Intelligence<br/>APIs · Decision Engine · Orchestration]
+
+    D[Cloud Layer<br/>Training · Data Aggregation · Analytics]
+
+    %% Flow
+    A --> B
+    B --> C
+    C --> D
+
+    %% Feedback Loop
+    D --> C
+    C --> B
+
+    %% Styling
+    classDef layer fill:#0f172a,color:#ffffff,stroke:#1e293b,stroke-width:1px;
+    class A,B,C,D layer;
 
 PeachBot is structured as a layered intelligence system:
 
