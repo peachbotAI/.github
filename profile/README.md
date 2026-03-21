@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://peachbot.in/assets/logo.png" width="120" alt="PeachBot Logo"/>
+  <img src="[https://peachbot.in/assets/logo.png](https://peachbot.in/assets/img/logo.png)" width="120" alt="PeachBot Logo"/>
 </p>
 
 <h1 align="center">PeachBot Research & Innovations</h1>
