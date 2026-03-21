@@ -78,17 +78,9 @@ PeachBot is structured as a layered intelligence system:
 ## Platform Concepts
 
 <p align="center">
-  <span style="display:inline-block; width:260px; height:180px; overflow:hidden; margin:5px;">
-    <img src="https://peachbot.in/assets/img/MediAI/Peachbot_Medi_Ai_03.png" style="width:100%; height:100%; object-fit:cover;" />
-  </span>
-
-  <span style="display:inline-block; width:260px; height:180px; overflow:hidden; margin:5px;">
-    <img src="https://peachbot.in/assets/img/peachBotEco.png" style="width:100%; height:100%; object-fit:cover;" />
-  </span>
-
-  <span style="display:inline-block; width:260px; height:180px; overflow:hidden; margin:5px;">
-    <img src="https://peachbot.in/assets/img/AgriAI/Peachbot_Agri_Ai_01.png" style="width:100%; height:100%; object-fit:cover;" />
-  </span>
+  <img src="https://peachbot.in/assets/img/MediAI/Peachbot_Medi_Ai_03.png" width="260" height="180"/>
+  <img src="https://peachbot.in/assets/img/peachBotEco.png" width="260" height="180"/>
+  <img src="https://peachbot.in/assets/img/AgriAI/Peachbot_Agri_Ai_01.png" width="260" height="180"/>
 </p>
 
 <p align="center">
