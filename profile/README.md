@@ -235,7 +235,7 @@ The architecture prioritizes **edge-native intelligence**, where learning and ad
 ---
 
 
-## 🧬 Repository Structure
+## Repository Structure
 
 | Repository | Description |
 |-----------|-------------|
