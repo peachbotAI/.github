@@ -235,15 +235,18 @@ The architecture prioritizes **edge-native intelligence**, where learning and ad
 ---
 
 
-## Repository Structure
+## 🧬 Repository Structure
 
 | Repository | Description |
-|----------|------------|
-| `peachbot-core` | Core system architecture and platform modules |
-| `peachbot-edge` | Edge device and embedded AI systems |
-| `peachbot-models` | AI models and biological intelligence frameworks |
-| `peachbot-deploy` | Deployment infrastructure and configurations |
-
+|-----------|-------------|
+| `peachbot-core` | Private core engine: SBC-based reasoning, signal processing, and decision orchestration |
+| `peachbot-medical-kg` | Medical Knowledge Graph: evidence-backed clinical patterns and rule compilation |
+| `peachbot-eco-kg` | Ecological Knowledge Graph: environmental signals, ecosystem patterns, and sustainability intelligence |
+| `peachbot-agri-kg` | Agricultural Knowledge Graph: crop health, soil conditions, and agronomic patterns |
+| `peachbot-bio-kg` | Biological Knowledge Graph: molecular, cellular, and bioinformatics pattern encoding |
+| `peachbot-edge` | Edge execution layer: SBC deployment, on-device inference, and hardware integration |
+| `peachbot-models` | AI and biologically-inspired models (supporting, non-core) |
+| `peachbot-deploy` | Deployment pipelines, infrastructure, and environment configuration |
 ---
 
 ## Intellectual Property & Validation
