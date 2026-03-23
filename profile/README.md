@@ -237,6 +237,8 @@ The architecture prioritizes **edge-native intelligence**, where learning and ad
 
 ## Repository Structure
 
+PeachBot is structured as a modular, multi-repository system separating knowledge engineering, reasoning, and deployment layers.
+
 | Repository | Description |
 |-----------|-------------|
 | `peachbot-core` | Private core engine: SBC-based reasoning, signal processing, and decision orchestration |
