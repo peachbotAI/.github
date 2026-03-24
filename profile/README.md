@@ -10,8 +10,6 @@
 <p align="center">
   <em>Developed by PeachBot Research & Innovations</em>
 </p>
----
-
 <p align="center">
   <img src="https://img.shields.io/badge/Stage-Early%20Deployment%20Transition-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Edge%20AI-1f6feb?style=for-the-badge" />
@@ -22,145 +20,186 @@
   <img src="https://img.shields.io/badge/Architecture-Distributed%20Edge%20Intelligence-238636?style=flat-square" />
   <img src="https://img.shields.io/badge/Core-SBC%20%2B%20FILA-orange?style=flat-square" />
 </p>
----
+
+## What PeachBot Does (Plain Explanation)
+
+PeachBot builds intelligent systems that function like **autopilots for biological and real-world systems**.
+
+Just as a flight computer continuously monitors conditions and makes real-time adjustments to keep an aircraft stable, PeachBot systems observe signals from environments such as the human body, farms, or ecosystems, and provide **continuous decision support and adaptive responses**.
+
+These systems run on **specialized, hardware-integrated computing units**, allowing them to operate directly where data is generated—without relying heavily on distant cloud infrastructure.
+
+This enables:
+
+- **Real-time monitoring and response**  
+- **On-device decision support and advisory**  
+- **Reliable operation in constrained or remote environments**  
+
+In simple terms, PeachBot creates systems that can **continuously observe, interpret, and assist in decision-making—like an intelligent autopilot for biological and environmental systems**.
 
 ## Overview
 
-PeachBot Research & Innovations is a deep-technology platform focused on the development and deployment of biologically-aware edge AI systems.
+**PeachBot** is a biologically-grounded, distributed edge intelligence framework and ecosystem integrating hardware, software, and domain-specific intelligence systems.
 
-The platform has progressed through advanced prototyping and is now transitioning toward deployment-ready systems across healthcare, environmental intelligence, and distributed sensing environments.
+It is developed by **PeachBot Research & Innovations**, a deep-tech entity focused on building deployment-ready edge intelligence systems for real-world environments.
+
+The system is built on a state-centric computation paradigm (**Synthetic Biological Computation — SBC**) and a federated coordination architecture (**FILA**), enabling adaptive, real-time intelligence directly on specialized, hardware-integrated edge systems.
+
+PeachBot represents a shift from centralized AI systems toward distributed, edge-native intelligence where learning is localized and system-wide intelligence emerges through coordination.
 
 ---
 ## Compliance & Standards
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HIPAA-Roadmap-lightgrey" />
-  <img src="https://img.shields.io/badge/GDPR-Ready-blue" />
-  <img src="https://img.shields.io/badge/PDPA%20(SG)-Aligned-green" />
+  <img src="https://img.shields.io/badge/HIPAA-Alignment%20in%20Progress-lightgrey" />
+  <img src="https://img.shields.io/badge/GDPR-Alignment-blue" />
+  <img src="https://img.shields.io/badge/PDPA-Aligned-green" />
   <img src="https://img.shields.io/badge/DISHA%20(India)-Reference-grey" />
-  <img src="https://img.shields.io/badge/ISO%2013485-Planned-grey" />
-  <img src="https://img.shields.io/badge/FHIR%20%2F%20HL7-Interoperable-238636" />
+  <img src="https://img.shields.io/badge/ISO%2013485-Under%20Evaluation-grey" />
+  <img src="https://img.shields.io/badge/FHIR%20%2F%20HL7-Integration%20in%20Progress-238636" />
 </p>
 
-PeachBot aligns with international data protection, healthcare interoperability, and emerging digital health governance frameworks across Singapore and India.
+PeachBot is designed with a **compliance-aligned architecture**, where data handling, system interoperability, and deployment models are structured to support regulatory and healthcare standards.
+
+The system follows a **design-first approach**, enabling alignment with data protection, clinical interoperability, and safety frameworks as it progresses toward deployment.
+
+## Background & Motivation
+
+Most modern AI systems are **centralized and cloud-dependent**, which introduces challenges in latency, privacy, and reliability in real-world deployments. Edge AI shifts computation closer to data sources, enabling on-device inference, while **federated learning** allows distributed training without direct data sharing (McMahan et al., 2017).
+
+At the same time, research in **biologically-inspired and adaptive systems** highlights the importance of decentralized, state-aware intelligence. However, existing systems remain largely model-centric and lack continuous, context-aware adaptation under real-world constraints.
 
 ## Platform Status
+**Stage: Validated MVP → Early Deployment Transition**
 
-**Validated MVP → Deployment Transition**
+- Multi-layer architecture integrated and validated  
+- Functional edge AI prototypes operational  
+- Select modules deployment-ready  
+- Ongoing optimization for real-world scalability and reliability  
 
-- Integrated multi-layer system architecture  
-- Functional edge AI prototypes  
-- Deployment-ready system modules  
-- Ongoing optimization for real-world scalability  
-
----
 ## Product Verticals
 
 ### PeachBot MedAI+ (Clinical Intelligence)
 
-- Edge-native diagnostics and biological signal intelligence  
-- GNN-driven multi-modal medical inference  
+- Edge-native diagnostic and biological signal analysis  
+- Graph-based, multi-modal medical inference (Edge-GNN)  
 - **Status:** Patent Published *(App No: 202541127477)*  
 
 [Health Intelligence](https://peachbot.in/telemedicine-software)
 
----
 
 ### PeachBot Eco (Environmental Intelligence)
 
 - Real-time monitoring of water systems and ecosystems  
-- Distributed sensing with adaptive intelligence  
-- **Status:** Live Deployment *(Ramsar Site: Sasthamkotta)*  
+- Distributed sensing with adaptive, edge-based intelligence  
+- **Status:** Field Deployment *(Ramsar Site: Sasthamkotta)*  
 
 [Environmental & Ecological Intelligence](https://peachbot.in/ai-in-ecology)
 
----
 
 ### PeachBot AgriAI (Agricultural Intelligence)
 
-- Precision agriculture using edge AI systems  
-- Predictive and adaptive farm intelligence  
+- Precision agriculture using edge-integrated intelligence systems  
+- Predictive and adaptive farm monitoring  
 
 [Agricultural Intelligence Systems](https://peachbot.in/ai-in-agriculture)
 
----
 
 ### Biological Intelligence Research
 
-
-- Adaptive learning architectures inspired by biological systems  
-- Foundation layer for SBC and Edge-GNN models  
+- Biologically-inspired adaptive learning architectures  
+- Foundational layer for SBC and Edge-GNN systems  
 
 [Biological Intelligence Modeling](https://peachbot.in/ai-in-biology)
 
+
 ## Core Divisions
 
-The PeachBot platform is structured as a **multi-layer, biologically-aware intelligence stack**, combining domain-specific applications with proprietary system frameworks spanning hardware, computation, and distributed learning.
+PeachBot is structured as a **multi-layer, biologically-grounded intelligence stack**, integrating domain-specific applications with system-level frameworks across computation, hardware, and distributed learning.
 
----
 
 ### Applied Intelligence Domains
-- Edge-native diagnostic and monitoring systems enabling real-time medical intelligence in constrained and latency-sensitive environments.
-- Distributed sensing and adaptive response systems for environmental monitoring, ecological analysis, and real-time intelligence.
-- Precision agriculture platforms leveraging edge AI for monitoring, prediction, and adaptive farm management.
-- Development of biologically-inspired learning architectures enabling adaptive, resilient, and distributed intelligence systems.
 
----
+- Edge-native clinical monitoring and diagnostic systems for latency-sensitive environments  
+- Distributed environmental sensing and adaptive ecosystem intelligence  
+- Precision agriculture platforms for monitoring, prediction, and adaptive response  
+- Biologically-inspired learning systems enabling adaptive, resilient intelligence  
+
 
 ### Core System Frameworks
 
-**FILA (Federated Intelligence & Learning Architecture)**  
-A distributed learning architecture where training occurs locally at the edge, with system-wide intelligence emerging through federated aggregation, validation, and controlled synchronization. Designed to minimize data centralization while preserving global coherence.
-
 **SBC (Synthetic Biological Computation)**  
-A proprietary computation paradigm inspired by biological systems, enabling state-aware, adaptive, and continuously evolving intelligence across dynamic and uncertain environments. SBC underpins local learning behavior and system adaptability.
+A state-centric computation paradigm enabling **adaptive, context-aware, and continuously evolving decision systems** under dynamic conditions. SBC forms the core reasoning layer across all edge nodes.
+
+
+**FILA (Federated Intelligence & Learning Architecture)**  
+A distributed coordination framework enabling **localized learning with controlled global aggregation**, allowing system-wide intelligence to emerge without direct data centralization.
+
 
 **Edge SoC (System-on-Chip Intelligence Integration)**  
-Hardware-integrated intelligence layer combining sensing, embedded AI acceleration, and communication within optimized SoC configurations. Enables efficient on-device inference and **localized training**, supporting real-time operation under strict resource constraints.
+A hardware-integrated execution layer combining sensing, embedded AI acceleration, and communication to enable **low-latency, resource-efficient on-device inference and learning**.
+
 
 **Platform Orchestration & Governance Layer**  
-A coordination layer responsible for decision orchestration, system-wide policy enforcement, safety constraints, and lifecycle management of distributed intelligence across edge nodes.
+A system-level coordination layer responsible for **decision orchestration, policy enforcement, safety constraints, and lifecycle management** across distributed edge nodes.
 
----
 
 ### System Perspective
 
-Together, these components enable PeachBot to operate as a **distributed, edge-first intelligence system**, where:
+PeachBot operates as a **distributed, edge-first intelligence system** where:
 
 - Learning is **localized and continuous**  
 - Intelligence is **emergent and system-wide**  
 - The cloud provides **aggregation, validation, and governance** — not centralized control  
-This architecture reflects a shift from conventional centralized AI systems toward **biologically-aligned, distributed intelligence infrastructures**.
----
+
+This architecture represents a shift from centralized AI systems toward **state-centric, biologically-grounded distributed intelligence infrastructures**.
 
 ## System Architecture
+
 <p align="center">
   <img src="/profile/arch.png" width="820"/>
 </p>
- 
 
-PeachBot is architected as a distributed, edge-first intelligence system, where learning and decision-making occur at the point of data generation.
+PeachBot follows a **state-centric, distributed edge intelligence architecture**, where sensing, learning, and decision-making occur directly at the point of data generation on hardware-integrated edge systems.
 
-The platform integrates interface, edge, coordination, and aggregation layers to enable adaptive, real-time intelligence in constrained environments, while maintaining system-wide consistency through controlled aggregation and model governance.
+The architecture is organized as a layered pipeline that transforms raw real-world signals into structured state representations, enabling **adaptive, real-time decision support under resource and latency constraints**.
 
-- **Interface Layer** — real-world interaction across patients, environmental inputs, and physical systems  
-- **Edge Intelligence Layer** — sensing, on-device inference, and **local adaptive learning** under real-world constraints  
-- **Platform Coordination Layer** — decision orchestration, policy control, and system-level intelligence management  
-- **Cloud Aggregation Layer** — federated aggregation, model validation, and controlled model distribution  
+### Architecture Layers
 
-The architecture prioritizes **edge-native intelligence**, where learning and adaptation occur locally, while the cloud provides **coordination, validation, and system-wide consistency** rather than centralized control.
+- **Input Layer** — acquisition of real-world signals from clinical, environmental, and agricultural systems  
+
+- **Preprocessing & Structuring Layer** — normalization and transformation of heterogeneous inputs into structured, machine-interpretable signals  
+
+- **Semantic Extraction Layer** — ML/NLP-based extraction (e.g., speech-to-text, clinical NLP, alias normalization) converting unstructured data into structured representations  
+
+- **Knowledge Layer (Versioned KG)** — integration of domain knowledge including clinical rules, environmental models, and biological priors  
+
+- **Edge Intelligence Layer (SBC Execution)** —  
+  state-centric computation where **structured state → interpretation → decision**, enabling adaptive, context-aware reasoning directly on-device  
+
+- **Safety Layer** — risk evaluation, policy enforcement, and controlled decision validation before action  
+
+- **Output Layer** — generation of alerts, recommendations, or system actions  
+
+- **Cloud Coordination & Aggregation Layer (FILA)** — federated aggregation of **signals and model updates (no raw data transfer)**, enabling validation, synchronization, and system-wide consistency  
+
+### System Behavior
+
+- Learning is **localized, continuous, and context-aware**  
+- Intelligence is **emergent across distributed edge nodes**  
+- The cloud acts as a **coordination and validation layer**, not a centralized decision-maker  
 
 
----
+This architecture represents a shift from **model-centric, cloud-dependent AI systems** toward **state-centric, biologically-grounded distributed intelligence systems**, where edge devices function as autonomous yet coordinated intelligence units.
+
 
 ## Platform Capabilities
 
-- Edge-native AI execution  
-- Real-time adaptive decision systems  
-- Distributed intelligence coordination  
-- Hybrid edge-cloud deployment models  
+- On-device (edge) inference and execution  
+- Real-time, state-aware decision support  
+- Distributed coordination across edge nodes  
+- Federated edge–cloud operation (no raw data transfer) 
 
----
 
 
 ## Repository Structure
