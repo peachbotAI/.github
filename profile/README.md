@@ -1,19 +1,27 @@
-<p align="center">
-  <img src="https://peachbot.in/assets/img/logo.png" width="200" alt="PeachBot Logo"/>
+<p align="left">
+  <img src="https://peachbot.in/assets/img/logo.png" width="160" alt="PeachBot Logo"/>
 </p>
 
-<h1 align="center">PeachBot Research & Innovations</h1>
+<h1 align="center">PeachBot SBC</h1>
 
 <p align="center">
-  Biologically-Aware Edge Intelligence Systems
+  <strong>Biologically-Grounded Distributed Edge Intelligence Systems</strong>
+</p>
+<p align="center">
+  <em>Developed by PeachBot Research & Innovations</em>
+</p>
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Stage-Early%20Deployment%20Transition-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Edge%20AI-1f6feb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Deep%20Tech-6e7781?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Stage-Deployment%20Transition-black" />
-  <img src="https://img.shields.io/badge/Focus-Edge%20AI-blue" />
-  <img src="https://img.shields.io/badge/Domain-Deep%20Tech-grey" />
+  <img src="https://img.shields.io/badge/Architecture-Distributed%20Edge%20Intelligence-238636?style=flat-square" />
+  <img src="https://img.shields.io/badge/Core-SBC%20%2B%20FILA-orange?style=flat-square" />
 </p>
-
 ---
 
 ## Overview
