@@ -126,7 +126,9 @@ This architecture reflects a shift from conventional centralized AI systems towa
 ---
 
 ## System Architecture
-
+<p align="center">
+  <img src=".github/profile/architecture.png" width="720"/>
+</p>
  
 
 PeachBot is architected as a distributed, edge-first intelligence system, where learning and decision-making occur at the point of data generation.
