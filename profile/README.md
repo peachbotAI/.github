@@ -127,7 +127,7 @@ This architecture reflects a shift from conventional centralized AI systems towa
 
 ## System Architecture
 <p align="center">
-  <img src="/profile/architecture.png" width="820"/>
+  <img src="/profile/arch.png" width="820"/>
 </p>
  
 
