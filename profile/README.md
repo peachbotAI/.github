@@ -204,19 +204,86 @@ This architecture represents a shift from **model-centric, cloud-dependent AI sy
 
 ## Repository Structure
 
-PeachBot is structured as a modular, multi-repository system separating knowledge engineering, reasoning, and deployment layers.
+PeachBot is organized as a **modular, multi-repository ecosystem**, separating core computation, knowledge systems, models, and deployment layers.
+
+
+### Core System
 
 | Repository | Description |
 |-----------|-------------|
-| `peachbot-core` | Private core engine: SBC-based reasoning, signal processing, and decision orchestration |
-| `peachbot-medical-kg` | Medical Knowledge Graph: evidence-backed clinical patterns and rule compilation |
-| `peachbot-eco-kg` | Ecological Knowledge Graph: environmental signals, ecosystem patterns, and sustainability intelligence |
-| `peachbot-agri-kg` | Agricultural Knowledge Graph: crop health, soil conditions, and agronomic patterns |
-| `peachbot-bio-kg` | Biological Knowledge Graph: molecular, cellular, and bioinformatics pattern encoding |
-| `peachbot-edge` | Edge execution layer: SBC deployment, on-device inference, and hardware integration |
-| `peachbot-models` | AI and biologically-inspired models (supporting, non-core) |
-| `peachbot-deploy` | Deployment pipelines, infrastructure, and environment configuration |
+| `peachbot-core` | Private core engine implementing **SBC (state-centric computation)**, signal processing, and decision orchestration |
+
 ---
+
+### Knowledge Layer (Versioned KG)
+
+| Repository | Description |
+|-----------|-------------|
+| `peachbot-medical-kg` | Clinical knowledge graph: evidence-based rules and diagnostic patterns |
+| `peachbot-eco-kg` | Ecological knowledge graph: environmental signals and ecosystem intelligence |
+| `peachbot-agri-kg` | Agricultural knowledge graph: crop, soil, and farm intelligence patterns |
+| `peachbot-bio-kg` | Biological knowledge graph: molecular, cellular, and bioinformatics priors |
+
+
+### Model Layer (Supporting, Non-Core)
+
+| Repository | Description |
+|-----------|-------------|
+| `peachbot-models-med` | Clinical models (e.g., Edge-GNN, diagnostic inference) |
+| `peachbot-models-eco` | Environmental models (monitoring, anomaly detection) |
+| `peachbot-models-agri` | Agricultural models (prediction, adaptive farm intelligence) |
+| `peachbot-models-bio` | Biological models (interaction modeling, priors) |
+
+> Models act as **supporting inference layers**; core reasoning remains **state-centric (SBC-driven)**.
+
+
+### Edge Execution Layer
+
+| Repository | Description |
+|-----------|-------------|
+| `peachbot-edge` | Edge runtime: SBC execution, on-device inference, and hardware integration |
+
+
+### Deployment & Infrastructure
+
+| Repository | Description |
+|-----------|-------------|
+| `peachbot-deploy` | Deployment pipelines, infrastructure setup, and environment configuration |
+
+---
+
+### Documentation & Research
+
+| Repository | Description |
+|-----------|-------------|
+| `peachbot-docs` | Central documentation: architecture, specifications, technical notes, and system design |
+| `peachbot-research` | Publications, preprints, experiments, and supporting research artifacts |
+
+---
+
+### Demo & Validation
+
+| Repository | Description |
+|-----------|-------------|
+| `peachbot-demo` | Public demo applications for **testing, validation, and system interaction** (non-clinical, sandboxed) |
+
+
+### System Perspective
+
+- Core intelligence is implemented in **`peachbot-core` (SBC)**  
+- Knowledge is modularized via **domain-specific KGs**  
+- Models provide **augmentative inference, not primary control**  
+- Edge layer executes **real-time, hardware-integrated intelligence**  
+- Documentation and research ensure **traceability and reproducibility**  
+- Cloud and deployment layers enable **coordination, validation, and scalability**
+
+### System Perspective
+
+- Core intelligence is implemented in **`peachbot-core` (SBC)**  
+- Knowledge is modularized via **domain-specific KGs**  
+- Models provide **augmentative inference, not primary control**  
+- Edge layer executes **real-time, hardware-integrated intelligence**  
+- Cloud and deployment layers enable **coordination, validation, and scalability**
 
 ## Intellectual Property & Validation
 
