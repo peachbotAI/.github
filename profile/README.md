@@ -248,6 +248,7 @@ PeachBot is organized as a **modular, multi-repository ecosystem**, separating c
 
 | Repository | Description |
 |-----------|-------------|
+| `peachbot-fila` | Federated networking layer for privacy-preserving, metadata-only intelligence sharing across edge nodes |
 | `peachbot-deploy` | Deployment pipelines, infrastructure setup, and environment configuration |
 
 ---
