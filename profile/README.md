@@ -2,7 +2,7 @@
   <img src="https://peachbot.in/assets/img/logo.png" width="160" alt="PeachBot Logo"/>
 </p>
 
-<h1 align="center">PeachBot SBC</h1>
+<h1 align="center">PeachBot SBC Framework</h1>
 
 <p align="center">
   <strong>Biologically-Grounded Distributed Edge Intelligence Systems</strong>
@@ -36,6 +36,13 @@ This enables:
 - **Reliable operation in constrained or remote environments**  
 
 In simple terms, PeachBot creates systems that can **continuously observe, interpret, and assist in decision-making—like an intelligent autopilot for biological and environmental systems**.
+
+## What PeachBot Is Not
+
+- Not a cloud-dependent AI system  
+- Not a centralized machine learning platform  
+- Not an API-based orchestration system  
+- Not a wrapper around external AI services  
 
 ## Overview
 
@@ -150,7 +157,7 @@ PeachBot operates as a **distributed, edge-first intelligence system** where:
 
 - Learning is **localized and continuous**  
 - Intelligence is **emergent and system-wide**  
-- The cloud provides **aggregation, validation, and governance** — not centralized control  
+- The cloud provides aggregation, validation, and governance — not centralized control — while intelligence remains localized and emergent through FILA.  
 
 This architecture represents a shift from centralized AI systems toward **state-centric, biologically-grounded distributed intelligence infrastructures**.
 
@@ -248,7 +255,7 @@ PeachBot is organized as a **modular, multi-repository ecosystem**, separating c
 
 | Repository | Description |
 |-----------|-------------|
-| `peachbot-fila` | Federated networking layer for privacy-preserving, metadata-only intelligence sharing across edge nodes |
+| `peachbot-fila` | Deterministic federated intelligence protocol enabling metadata-only, trust-weighted, time-aware, and partially visible distributed cognition across edge nodes |
 | `peachbot-deploy` | Deployment pipelines, infrastructure setup, and environment configuration |
 
 ---
@@ -277,6 +284,20 @@ PeachBot is organized as a **modular, multi-repository ecosystem**, separating c
 - Edge layer executes **real-time, hardware-integrated intelligence**  
 - Documentation and research ensure **traceability and reproducibility**  
 - Cloud and deployment layers enable **coordination, validation, and scalability**
+
+## Distributed Cognition Model (FILA v1.2)
+
+PeachBot systems operate under a **distributed cognition paradigm**, where:
+
+- Each edge node observes a **partial, deterministic subset** of global intelligence  
+- No node has full system visibility  
+- Intelligence emerges through **coordinated local views**  
+
+This replaces traditional centralized aggregation with:
+
+global intelligence → constrained local projections → system-wide cognition  
+
+This model is inspired by biological systems, where intelligence arises from **localized interactions rather than centralized control**.
 
 ## Intellectual Property & Validation
 
@@ -348,6 +369,17 @@ PeachBot is transitioning from **validated research and MVP systems** toward **d
 - Distributed edge AI ecosystems  
 
 ---
+
+## Future System Evolution
+
+PeachBot is evolving toward:
+
+- Fully autonomous edge intelligence systems  
+- Hardware-adaptive intelligence tuning  
+- Large-scale distributed cognition networks  
+- Domain-specialized intelligent ecosystems  
+
+The focus is on **deployment-scale, real-world intelligence systems**, not experimental AI models.
 
 ## Collaboration & Partnerships
 
