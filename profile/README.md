@@ -278,14 +278,6 @@ PeachBot is organized as a **modular, multi-repository ecosystem**, separating c
 - Documentation and research ensure **traceability and reproducibility**  
 - Cloud and deployment layers enable **coordination, validation, and scalability**
 
-### System Perspective
-
-- Core intelligence is implemented in **`peachbot-core` (SBC)**  
-- Knowledge is modularized via **domain-specific KGs**  
-- Models provide **augmentative inference, not primary control**  
-- Edge layer executes **real-time, hardware-integrated intelligence**  
-- Cloud and deployment layers enable **coordination, validation, and scalability**
-
 ## Intellectual Property & Validation
 
 **Patent Filing**  
