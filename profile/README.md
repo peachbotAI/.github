@@ -5,20 +5,21 @@
 <h1 align="center">PeachBot SBC Framework</h1>
 
 <p align="center">
-  <strong>Biologically-Grounded Distributed Edge Intelligence Systems</strong>
+  <strong>Deterministic Orchestration & Hybrid Edge Intelligence for Safety-Critical Systems</strong>
 </p>
 <p align="center">
   <em>Developed by PeachBot Research & Innovations</em>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Stage-Early%20Deployment%20Transition-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Edge%20AI-1f6feb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Hybrid%20Edge%20AI-1f6feb?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Domain-Deep%20Tech-6e7781?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Architecture-Distributed%20Edge%20Intelligence-238636?style=flat-square" />
+  <img src="https://img.shields.io/badge/Architecture-State--Centric%20Orchestration-238636?style=flat-square" />
   <img src="https://img.shields.io/badge/Core-SBC%20%2B%20FILA-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Compliance-PDPA%20%7C%20GDPR%20Aligned-blue?style=flat-square" />
 </p>
 
 ## What PeachBot Does (Plain Explanation)
@@ -37,12 +38,14 @@ This enables:
 
 In simple terms, PeachBot creates systems that can **continuously observe, interpret, and assist in decision-making—like an intelligent autopilot for biological and environmental systems**.
 
-## What PeachBot Is Not
+## The Problem: The "Hallucination" Gap in Critical AI
+Large Language Models (LLMs) offer unprecedented reasoning capabilities but remain probabilistic "black boxes." In regulated sectors like **Clinical Oncology** or **Precision Agriculture**, pure LLM outputs lack the deterministic reliability and hardware efficiency required for real-world deployment.
 
-- Not a cloud-dependent AI system  
-- Not a centralized machine learning platform  
-- Not an API-based orchestration system  
-- Not a wrapper around external AI services  
+## The Solution: PeachBot Hybrid Orchestration
+PeachBot provides the **deterministic control layer** that makes AI safe for the edge. We integrate advanced reasoning models (LLMs/GNNs) within a **State-Centric Computation (SBC)** framework to ensure every decision is:
+- **Auditable:** Every state transition is logged and verifiable.
+- **Constrained:** AI operates within strict, domain-specific safety guardrails.
+- **Edge-Native:** Optimized for execution on Single-Board Computers (SBCs) without cloud dependency.
 
 ## Overview
 
