@@ -25,6 +25,7 @@
   <img src="https://img.shields.io/badge/IP-Patent%20Published-orange?style=flat-square" />
 </p>
 
+
 PeachBot is a **hybrid intelligence framework** designed for real-world, safety-critical environments such as healthcare, agriculture, and ecological systems.
 
 It combines:
@@ -34,6 +35,26 @@ It combines:
 - **Edge-native execution on hardware-integrated systems**
 
 The goal is to enable **reliable, auditable, and deployment-ready AI systems** where probabilistic models alone are insufficient.
+
+## What PeachBot Does (Healthcare Context)
+
+PeachBot is a **hybrid edge AI system designed for real-time clinical monitoring and decision support**.
+
+It assists healthcare professionals by analyzing biological signals and generating **structured, auditable insights**, while keeping all decisions **human-supervised and constrained within clinical safety boundaries**.
+
+PeachBot does not replace clinical decision-making; it augments it with **reliable, real-time, and interpretable system-level intelligence**.
+
+## Initial Healthcare Use Case
+
+PeachBot is initially focused on **real-time patient monitoring in resource-constrained or continuous-care environments**, where early anomaly detection is critical.
+
+The system processes physiological and contextual signals on-device and provides:
+
+- Early warnings for abnormal patterns  
+- Structured summaries for clinician review  
+- Continuous, state-aware monitoring without cloud dependency  
+
+This enables faster and more informed clinical intervention while maintaining **full human oversight**.
 
 ## What PeachBot Does (Plain Explanation)
 
@@ -80,14 +101,26 @@ This ensures that:
 - AI outputs are **validated before action**  
 - Decisions are **traceable and auditable**  
 - The system remains **deployable in constrained, real-world environments**
+  
+> PeachBot does not replace human expertise; it enhances it with structured, real-time, and auditable system intelligence.
+
+## Role of AI Models (Including LLMs)
+
+PeachBot uses AI models, including LLMs, in a **controlled and constrained manner** for tasks such as:
+
+- Semantic interpretation of unstructured inputs  
+- Structured data extraction  
+- Supporting contextual reasoning  
+
+All model outputs are **validated and constrained through deterministic, state-based logic layers (SBC)** before contributing to any decision-support output.
+
+AI models in PeachBot are **supporting components, not autonomous decision-makers**.
 
 ## Overview
 
-**PeachBot** is a biologically-grounded, distributed edge intelligence framework and ecosystem integrating hardware, software, and domain-specific intelligence systems.
+**PeachBot** is a **deployment-focused hybrid AI system** designed to operate in real-world, safety-critical environments such as healthcare, agriculture, and ecological systems.
 
-It is developed by **PeachBot Research & Innovations**, a deep-tech entity focused on building deployment-ready edge intelligence systems for real-world environments.
-
-The system is built on a state-centric computation paradigm (**Synthetic Biological Computation — SBC**) and a federated coordination architecture (**FILA**), enabling adaptive, real-time intelligence directly on specialized, hardware-integrated edge systems.
+Rather than being model-centric, PeachBot combines **deterministic system control with machine learning components** to enable reliable, auditable, and edge-native intelligence.
 
 PeachBot represents a shift from centralized AI systems toward distributed, edge-native intelligence where learning is localized and system-wide intelligence emerges through coordination.
 
@@ -253,6 +286,16 @@ The architecture is organized as a layered pipeline that transforms raw real-wor
 
 
 This architecture represents a shift from **model-centric, cloud-dependent AI systems** toward **state-centric, biologically-grounded distributed intelligence systems**, where edge devices function as autonomous yet coordinated intelligence units.
+
+## Safety & Human Oversight
+
+PeachBot is designed as a **decision-support system**, not an autonomous decision-maker.
+
+- All outputs are **reviewed within defined safety constraints**  
+- The system operates under **human-in-the-loop supervision**  
+- No direct clinical actions are executed without human validation  
+
+This ensures alignment with safety-critical deployment requirements in healthcare and regulated environments.
 
 
 ## Platform Capabilities
