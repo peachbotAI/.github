@@ -2,7 +2,7 @@
   <img src="https://peachbot.in/assets/img/logo.png" width="160" alt="PeachBot Logo"/>
 </p>
 
-<h1 align="center">PeachBot SBC Framework</h1>
+<h1 align="center">PeachBot — Hybrid Edge AI for Clinical Monitoring</h1>
 
 <p align="center">
   <strong>Hybrid Edge AI for Safety-Critical Systems</strong>
@@ -25,26 +25,20 @@
   <img src="https://img.shields.io/badge/IP-Patent%20Published-orange?style=flat-square" />
 </p>
 
+## Positioning Summary
 
-PeachBot is a **hybrid intelligence framework** designed for real-world, safety-critical environments such as healthcare, agriculture, and ecological systems.
+PeachBot is a **hybrid edge AI system that combines deterministic orchestration with controlled machine learning to enable reliable, auditable intelligence in real-world environments.**
 
-It combines:
+## What PeachBot Does (Healthcare Focus)
 
-- **Deterministic, state-based orchestration (SBC)**
-- **Controlled use of machine learning models (LLMs, GNNs, etc.)**
-- **Edge-native execution on hardware-integrated systems**
+PeachBot is a hybrid edge AI system designed for real-time clinical monitoring and decision support in resource-constrained and continuous-care environments.
 
-The goal is to enable **reliable, auditable, and deployment-ready AI systems** where probabilistic models alone are insufficient.
+It analyzes physiological and contextual signals directly on-device and provides **structured, auditable insights** to healthcare professionals, enabling early detection and faster intervention.
+The system operates within **strict safety constraints**, with all outputs designed to support—not replace—clinical decision-making.
 
-## What PeachBot Does (Healthcare Context)
+Primary users include clinicians, care teams, hospitals, and remote healthcare providers responsible for continuous patient monitoring.
 
-PeachBot is a **hybrid edge AI system designed for real-time clinical monitoring and decision support**.
-
-It assists healthcare professionals by analyzing biological signals and generating **structured, auditable insights**, while keeping all decisions **human-supervised and constrained within clinical safety boundaries**.
-
-PeachBot does not replace clinical decision-making; it augments it with **reliable, real-time, and interpretable system-level intelligence**.
-
-## Initial Healthcare Use Case
+## Initial Use Case
 
 PeachBot is initially focused on **real-time patient monitoring in resource-constrained or continuous-care environments**, where early anomaly detection is critical.
 
@@ -56,11 +50,10 @@ The system processes physiological and contextual signals on-device and provides
 
 This enables faster and more informed clinical intervention while maintaining **full human oversight**.
 
-## What PeachBot Does (Plain Explanation)
+## How PeachBot Works (Intuition)
 
-PeachBot builds intelligent systems that function like **autopilots for biological and real-world systems**.
-
-Just as a flight computer continuously monitors conditions and makes real-time adjustments to keep an aircraft stable, PeachBot systems observe signals from environments such as the human body, farms, or ecosystems, and provide **continuous decision support and adaptive responses** with **human in loop**.
+**PeachBot** builds intelligent, safety-constrained systems that function like autopilots for biological and real-world environments.
+Just as a flight computer continuously monitors conditions and makes real-time adjustments to keep an aircraft stable, PeachBot systems observe signals from environments such as the human body, farms, or ecosystems, and provide **continuous decision support and adaptive responses** with **human-in-the-loop oversight**.
 
 These systems run on **specialized, hardware-integrated computing units**, allowing them to operate directly where data is generated—without relying heavily on distant cloud infrastructure.
 
@@ -87,6 +80,18 @@ Modern AI models (including LLMs) provide powerful reasoning capabilities but ar
 - Not optimized for edge deployment  
 
 In domains like healthcare and environmental systems, **unconstrained AI outputs are insufficient for real-world use**.
+
+## Why Now
+
+Healthcare systems are increasingly constrained by:
+
+- Limited continuous monitoring capacity  
+- Rising patient loads  
+- Need for real-time, data-driven intervention  
+
+At the same time, edge computing and hybrid AI systems now make it possible to deliver **reliable, on-device intelligence** without relying on centralized infrastructure.
+
+PeachBot is designed to operate at this intersection.
 
 ## The Solution: Hybrid Deterministic AI Orchestration
 
@@ -170,7 +175,12 @@ At the same time, research in **biologically-inspired and adaptive systems** hig
 - Multi-layer architecture integrated and validated  
 - Functional edge AI prototypes operational  
 - Select modules deployment-ready  
-- Ongoing optimization for real-world scalability and reliability  
+- Ongoing optimization for real-world scalability and reliability
+
+## Product Focus & Expansion
+PeachBot is currently focused on healthcare deployment, with other domains representing future expansion of the core system architecture.
+**Primary Focus: Healthcare (Clinical Monitoring & Decision Support)**  
+**Expansion Domains: Environmental Intelligence, Agriculture, Biological Systems**
 
 ## Product Verticals
 
@@ -296,6 +306,8 @@ PeachBot is designed as a **decision-support system**, not an autonomous decisio
 - No direct clinical actions are executed without human validation  
 
 This ensures alignment with safety-critical deployment requirements in healthcare and regulated environments.
+
+> PeachBot is designed in alignment with safety-critical system principles, where AI outputs are always constrained, reviewable, and subordinate to human decision-making authority.
 
 
 ## Platform Capabilities
@@ -520,6 +532,4 @@ info@peachbot.in
 Singapore · India  
 
 info@peachbot.in
-## Positioning Summary
 
-PeachBot is a **hybrid edge AI system that combines deterministic orchestration with controlled machine learning to enable reliable, auditable intelligence in real-world environments.**
