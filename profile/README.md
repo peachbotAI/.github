@@ -25,6 +25,19 @@
   <img src="https://img.shields.io/badge/IP-Patent%20Published-orange?style=flat-square" />
 </p>
 
+## Official Brand & Product Authenticity Notice
+
+> [!IMPORTANT]
+> The following are brand identities associated with the PeachBot technology ecosystem. Third-party websites, applications, frameworks or services using identical or similar names should not be presumed to be affiliated with, authorised by or endorsed by PeachBot or, where applicable, Provenant AI Labs Pte. Ltd.
+
+- **Core technology:** PeachBot™ · PeachBot AI™ · PeachBot Framework™
+- **Healthcare and biomedical AI:** Medi AI™ · Medi AI+™ · Medi AI Röntgen™ · Medi AI Virchow™ · Medi AI Sushruta™ · Mendel AI™
+- **Agriculture and environmental intelligence:** PeachBot Agri™ · PeachBot EcoSense™ · PeachBot Eco™
+
+Verify official product identities and affiliations through [PeachBot](https://peachbot.in/) and, for relevant healthcare and biomedical initiatives, [Provenant AI Labs](https://www.provenantai.sg/). The ™ symbol indicates a trademark claim, not registered trademark status. All applicable rights are reserved. This notice does not alter any repository or third-party software licence. Research initiatives are not represented as regulatory-approved medical devices unless explicitly documented.
+
+---
+
 ## Positioning Summary
 
 PeachBot is a **hybrid edge AI system that combines deterministic orchestration with controlled machine learning to enable reliable, auditable intelligence in real-world environments.**
